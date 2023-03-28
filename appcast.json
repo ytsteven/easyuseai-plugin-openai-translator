@@ -2,6 +2,13 @@
   "identifier": "ytsteven.openai.translator",
   "versions": [
     {
+      "version": "0.1.2",
+      "desc": "init commit",
+      "sha256": "d4933d317178ca7710dee4b27c9c591397f1061ad0cbc05ca78e8038f019e36c",
+      "url": "https://github.com/ytsteven/easyuseai-plugin-openai-translator/releases/download/v0.1.2/openai-translator-0.1.2.aiplugin",
+      "minVersion": "0.4.0"
+    },
+    {
       "version": "0.1.0",
       "desc": "init",
       "sha256": "bc2038954f4031c520b6dca37e0b45724c9eaf7aff02ad6490077906d54f8282",
