@@ -2,6 +2,13 @@
   "identifier": "ytsteven.openai.translator",
   "versions": [
     {
+      "version": "0.1.4",
+      "desc": "Merge branch main of https://github.com/ytsteven/easyuseai-plugin-openai-translator",
+      "sha256": "01bbb98bde12e3f2265a3445e796b995ba9cba3962fb370719fde672ba2977bd",
+      "url": "https://github.com/ytsteven/easyuseai-plugin-openai-translator/releases/download/v0.1.4/openai-translator-0.1.4.aiplugin",
+      "minVersion": "0.4.0"
+    },
+    {
       "version": "0.1.2",
       "desc": "init commit",
       "sha256": "d4933d317178ca7710dee4b27c9c591397f1061ad0cbc05ca78e8038f019e36c",
