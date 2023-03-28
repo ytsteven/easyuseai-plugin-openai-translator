@@ -1,6 +1,6 @@
 {
     "identifier": "ytsteven.openai.translator",
-    "version": "0.2.6",
+    "version": "0.1.2",
     "category": "translate",
     "name": "OpenAI Translator",
     "summary": "GPT powered translator",
