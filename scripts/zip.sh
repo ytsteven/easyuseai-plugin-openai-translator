@@ -1,0 +1,1 @@
+zip -j -r release/openai-translator-0.1.0.aiplugin ./src/* 

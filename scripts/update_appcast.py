@@ -5,7 +5,7 @@ from pathlib import Path
 
 
 def update_appcast(version, desc):
-    release_file = Path(f'release/openai-translator-{version}.bobplugin')
+    release_file = Path(f'release/openai-translator-{version}.aiplugin')
     assert release_file.is_file(), 'Release file not exist'
     with open(release_file, 'rb') as f:
         c = f.read()
@@ -14,15 +14,15 @@ def update_appcast(version, desc):
         'version': version,
         'desc': desc,
         'sha256': file_hash,
-        'url': f'https://github.com/yetone/bob-plugin-openai-translator/releases/download/v{version}/{release_file.name}',
-        'minBobVersion': '0.5.0'
+        'url': f'https://github.com/ytsteven/easyuseai-plugin-openai-translator/releases/download/v{version}/{release_file.name}',
+        'minVersion': '0.4.0'
     }
     appcast_file = Path('appcast.json')
     if appcast_file.is_file():
         with open(appcast_file, 'r') as f:
             appcast = json.load(f)
     else:
-        appcast = dict(identifier='yetone.openai.translator', versions=[])
+        appcast = dict(identifier='ytsteven.openai.translator', versions=[])
     appcast['versions'].insert(0, version_info)
     with open(appcast_file, 'w') as f:
         json.dump(appcast, f, ensure_ascii=False, indent=2)

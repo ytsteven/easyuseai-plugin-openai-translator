@@ -1,0 +1,1 @@
+python3 scripts/update_appcast.py 0.2.6 init

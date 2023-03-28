@@ -1,14 +1,14 @@
 {
-    "identifier": "yetone.openai.translator",
+    "identifier": "ytsteven.openai.translator",
     "version": "0.2.6",
     "category": "translate",
     "name": "OpenAI Translator",
     "summary": "GPT powered translator",
     "icon": "",
-    "author": "yetone <yetoneful@gmail.com>",
-    "homepage": "https://github.com/yetone/bob-plugin-openai-translator",
-    "appcast": "https://raw.githubusercontent.com/yetone/bob-plugin-openai-translator/main/appcast.json",
-    "minBobVersion": "0.5.0",
+    "author": "yt1647605516@gmail.com",
+    "homepage": "https://github.com/ytsteven/easyuseai-plugin-openai-translator",
+    "appcast": "https://raw.githubusercontent.com/ytsteven/easyuseai-plugin-openai-translator/main/appcast.json",
+    "minVersion": "0.4.0",
     "options": [
         {
             "identifier": "api_url",
