@@ -1,3 +1,7 @@
+# 已经迁移到易用AI，可下载[易用AI插件](https://github.com/ytsteven/easyuseai-plugin-openai-translator/releases)(.aiplugin)使用 
+
+
+
 OpenAI Translator Bob Plugin
 ----------------------------
 
