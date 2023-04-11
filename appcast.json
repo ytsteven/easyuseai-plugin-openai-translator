@@ -2,17 +2,10 @@
   "identifier": "ytsteven.openai.translator",
   "versions": [
     {
-      "version": "0.2.6",
+      "version": "0.1.5",
       "desc": "update appcast.json",
       "sha256": "1cc7b7af3164c53b3e8e11465c958687530d5cfdb2d8538835ab11fc7d72fa40",
       "url": "https://github.com/ytsteven/easyuseai-plugin-openai-translator/releases/download/v0.2.6/openai-translator-0.2.6.aiplugin",
-      "minVersion": "0.4.0"
-    },
-    {
-      "version": "0.1.5",
-      "desc": "update version",
-      "sha256": "a0bf3d860254c895eb1c11827e7207ccac69dab46ba2deeb7ae824d40d25fba1",
-      "url": "https://github.com/ytsteven/easyuseai-plugin-openai-translator/releases/download/v0.1.5/openai-translator-0.1.5.aiplugin",
       "minVersion": "0.4.0"
     },
     {
