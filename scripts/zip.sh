@@ -1,1 +1,1 @@
-zip -j -r release/openai-translator-0.1.0.aiplugin ./src/* 
+zip -j -r release/openai-translator-0.2.6.aiplugin ./src/* && python3 scripts/update_appcast.py 0.2.6 对齐版本号
